@@ -16,9 +16,9 @@ backend:
   # Information about the backend's functions.
   functions:
     # The name (label) of the function.
-    - name: django-function
+    - name: django-getting-started
       # The path to the function's code.
-      path: app
+      path: mysite
       # The entry point for the function.
       entry: wsgi.py
       # The handler for the function.
